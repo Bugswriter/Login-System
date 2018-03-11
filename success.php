@@ -1,6 +1,6 @@
 <?php
 	
-	//Error Message
+	//Sucess Message
 	session_start();
 	echo "<h1>Success:</h1>";
 	if(isset($_SESSION['message']) && !empty($_SESSION['message'])){
